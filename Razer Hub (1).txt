@@ -3528,7 +3528,7 @@ spawn(function()
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Map.Jungle.QuestPlates.Plate5.Button.CFrame
                             wait(2)
                         else
-                            Tween(CFrame.new(-1459.875, 32.07079315185547, -103.8325424194336))
+                            Tween(CFrame.new(-683.519897, 13.8534927, 1610.87854, -0.290192783, 6.88365773e-08, 0.956968188, 6.98413629e-08, 1, -5.07531119e-08, -0.956968188, 5.21077759e-08, -0.290192783)))
                         end
                     else
                         if game:GetService("Workspace").Map.Desert.Burn.Part.Transparency == 0 then
