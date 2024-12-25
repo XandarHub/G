@@ -3514,7 +3514,7 @@ spawn(function()
             pcall(function()
                 if game:GetService("Workspace").Map.Jungle.Final.Part.Transparency == 0 then
                     if game:GetService("Workspace").Map.Jungle.QuestPlates.Door.Transparency == 0 then
-                        if (CFrame.new(-1459.875, 32.07079315185547, -103.8325424194336).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 100 then
+                        if (CFrame.new(-1458.89502, 29.8870335, -50.633564, 0.858821094, 1.13848939e-08, 0.512275636, -4.85649254e-09, 1, -1.40823326e-08, -0.512275636, 9.6063415e-09, 0.858821094).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 100 then
                             Tween(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame)
                             wait(1)
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Map.Jungle.QuestPlates.Plate1.Button.CFrame
@@ -3534,9 +3534,9 @@ spawn(function()
                         if game:GetService("Workspace").Map.Desert.Burn.Part.Transparency == 0 then
                             if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Torch") or game.Players.LocalPlayer.Character:FindFirstChild("Torch") then
                                 Equip_Weapon_Farm_All("Torch")
-                                Tween(CFrame.new(-1459.875, 32.07079315185547, -103.8325424194336))
+                                Tween(CFrame.new(-4955.72949, 80.8163834, 4305.82666, -0.433646321, -1.03394289e-08, 0.901083171, -3.0443168e-08, 1, -3.17633075e-09, -0.901083171, -2.88092288e-08, -0.433646321))
                               else
-                              Tween(CFrame.new(-1459.875, 32.07079315185547, -103.8325424194336))
+                              Tween(CFrame.new(-1604.12012, 36.8521118, 154.23732, 0.0648873374, -4.70858913e-06, -0.997892559, 1.41431883e-07, 1, -4.70933674e-06, 0.997892559, 1.64442184e-07, 0.0648873374))
                             end
                         else
                             if game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ProQuestProgress","SickMan") ~= 0 then
@@ -3552,7 +3552,7 @@ spawn(function()
                                     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ProQuestProgress","RichSon")
                                 elseif game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ProQuestProgress","RichSon") == 0 then
                                 if game:GetService("Workspace").Enemies:FindFirstChild("Mob Leader") or game:GetService("ReplicatedStorage"):FindFirstChild("Mob Leader") then
-                                    Tween(CFrame.new(-1459.875, 32.07079315185547, -103.8325424194336)) 
+                                    Tween(CFrame.new(-1223.52808, 6.27936459, -502.292664, 0.310949147, -5.66602516e-08, 0.950426519, -3.37275488e-08, 1, 7.06501808e-08, -0.950426519, -5.40241736e-08, 0.310949147)) 
                                         for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
                                             if v.Name == "Mob Leader" then
                                                if game:GetService("Workspace").Enemies:FindFirstChild("Mob Leader") then
